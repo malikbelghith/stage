@@ -1,0 +1,465 @@
+body{
+
+font-family: 'Cairo', sans-serif;
+}
+.left{
+display: flex;
+    gap: 40px;
+
+    align-items: center;
+}
+.list{
+display: flex;
+justify-content: center;
+gap: 40px;    
+}
+
+
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+   
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 750px;
+    justify-content: center;
+}
+.log{
+    background-color: #078667;
+    border: none;
+    color: white;
+    padding: 15px 34px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+.log:hover{
+    background-color: #078667;
+        border: none;
+        color: white;
+        padding: 18px 37px;
+        text-align: center;
+        text-decoration: none;
+        font-size: larger;
+        border-radius: 10px;
+        white-space: nowrap;
+}
+.sign{
+    color: #078667;
+    font-weight: bold;
+    white-space: nowrap; 
+font-size: 18px;
+}
+.sign:hover{
+color: #078667;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: larger;
+}
+
+.call{
+    color: gray;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 18px;
+}
+.call:hover{
+    color: #078667;
+        font-weight: bold;
+        font-size: larger;
+        white-space: nowrap;
+}
+.hotel{
+    color: gray;
+        font-weight: bold;
+        white-space: nowrap;
+        font-size: 18px;
+    }
+.hotel:hover{
+    color: #078667;
+        font-weight: bold;
+        font-size: larger;
+        white-space: nowrap;
+}
+.main{
+   color: gray;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 18px;
+}
+.main:hover{
+color: #078667;
+    font-weight: bold;
+    font-size: larger;
+    white-space: nowrap;
+}
+
+.both{
+    display: flex;
+   gap: 50px;
+   align-items: center;
+}
+.valise{
+    color: green;
+}
+.date{
+    opacity: 0.5;
+    color: black;
+    font-size: 18px;
+}
+.date1{
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+.codepromo{
+    border: none;
+}
+.chercher{
+    background-color: #078667;
+        border: none;
+        color: white;
+        padding: 18px 37px;
+        text-align: center;
+        text-decoration: none;
+        font-size: large;
+        border-radius: 10px;
+        white-space: nowrap;
+}
+.promosearch{
+    display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        gap: 50px;
+}
+header{
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    resize: vertical;
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(136, 136, 136, 0.34);
+        box-shadow: 0px 0px 15px 2px rgba(136, 136, 136, 0.34);
+        border-radius: 20px;
+        justify-content: center;
+        justify-items: center;
+        margin-left: 180px;
+        margin-right: 180px;
+        flex-direction: row-reverse;
+    
+}
+.dest{
+    font-size: 18px;
+    opacity: 0.5;
+}
+.choose{
+    font-size: 18px;
+    font-weight: bold;
+}
+.promo{
+    padding-bottom: 10px;
+}
+.chercher:hover{
+    background-color: #078667;
+        border: none;
+        color: white;
+        padding: 20px 39px;
+        text-align: center;
+        text-decoration: none;
+        font-size: larger;
+        border-radius: 10px;
+        white-space: nowrap;
+}
+.voyage{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+  margin-right: 50px;  
+}
+html{
+    align-items: center;
+}
+.texte{
+    font-size: 70px;
+    font-weight: bold;
+}
+strong{
+    color: #078667;
+}
+.flechet{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    margin-left: 200px;
+}
+.droite{
+    opacity: 0.5;
+}
+.bh{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 200px;
+    white-space: nowrap;
+}
+.besthotel{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 1200px;
+}
+.allhotels{
+margin-bottom: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.mariotthotel{
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px #00000029;
+    width: 260px;
+    height: 400px;
+    
+    
+}
+.mariotimg{
+    border-radius: 20px 20px 0px 0px;
+    width: 260px;
+    height: 260px;
+}
+.underimg{
+    text-align: right;
+    line-height: 25px;
+}
+.stars{
+    width: 120px;
+    margin-top: 0px;
+}
+.makka{
+    margin-top: 2px;
+    font-size: 17px;
+    opacity: 0.5;
+}
+.hotelname{
+    font-size: 19px;
+    font-weight: bold;
+}
+.hotelname1{
+    font-size: 16px;
+        font-weight: bold;
+        white-space: nowrap;
+}
+.mariotimg:hover{
+    border-radius: 20px 20px 0px 0px;
+        width: 300px;
+        height: 300px;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.2;
+    
+}
+.dot1 {
+    height: 10px;
+    width: 10px;
+    background-color:#17A288;
+    border-radius: 50%;
+    display: inline-block;
+    white-space: nowrap;
+}
+.point{
+display: flex;
+    gap: 17px;
+    justify-content: center;
+
+   
+}
+.besth{
+    background-color: #f7f7f7;
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+    gap: 311px;
+        
+}
+.easy{
+    font-size: 25px;
+    opacity: 0.3;
+}
+.numbers{
+    font-size: 70px;
+    font-weight: bolder;
+    display: flex;
+    gap: 100px;
+    flex-direction: row-reverse;
+margin-top: -48px;
+}
+.ktiba{
+    
+    text-align: right;
+        white-space: nowrap;
+}
+.booking{
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+   flex-direction: row-reverse;
+   gap: 230px;
+   opacity: 0.4;
+   margin-top: -118px;
+}
+.maqqa{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+.m{
+    font-size: 24px;
+    opacity: 0.5;
+}
+.makkaandtaef{
+    line-height: 10px;
+}
+.makkaandriyad{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 100px;
+}
+.alltogether{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 250px;
+}
+.email{
+-webkit-box-shadow: 0px 0px 15px 2px rgba(136, 136, 136, 0.34);
+    box-shadow: 0px 0px 15px 2px rgba(136, 136, 136, 0.34);
+    border-radius: 20px;
+    width: 1400px;
+    height: 120px;
+margin-left: 200px;
+margin-right: 200px;
+display: flex;
+flex-direction: column;
+
+}
+.nar{
+width: 596px;
+    
+    margin-left: 1012px;
+   
+    margin-top: -80px ;
+}
+.subscribe{
+    font-size: 23px;
+    font-weight: bolder;
+    white-space: nowrap;
+}
+.bestseller{
+    font-size: 16px;
+    opacity: 0.4;
+    white-space: nowrap;
+}
+.fire{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: -771px;
+        margin-top: -257px;
+        line-height: 22px;
+    }
+    .sub{
+        background-color: #17A288;
+        border-radius: 10px;
+        font-size: 30px;
+        color: #f7f7f7;
+        border: none;
+        padding: 13px 49px;
+        
+    }
+    .book{
+        border: none;
+        font-size: 23px;
+        opacity: 0.4;
+    }
+    .mail{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 162px;
+    margin-right: 756px;
+    margin-left: 16px;
+    margin-top: -101px;
+    border: 2px double rgba(153, 166, 180, 0.9);
+    border-radius: 25px 25px 26px 23px;
+    padding-bottom: 10px;
+    padding-top: 13px;
+    }
+   .rouge{
+width: 176px;
+    height: 33px;
+    margin-left: 420px;
+    margin-top: -103px;
+   }
+   .yourmail{
+    font-size: 20px;
+        margin-left: 445px;
+        margin-top: -38px;
+        opacity: 0.4;
+   }
+.sub:hover{
+    background-color: #17A288;
+        border-radius: 10px;
+        font-size: 35px;
+        color: #f7f7f7;
+        border: none;
+        padding: 13px 49px;
+}
+ .about{
+display: flex;
+    text-align: right;
+    flex-direction: row-reverse;
+    gap: 230px;
+    font-size: 23px;
+    margin-right: 427px;
+}
+ .allabout{
+    display: flex;
+    flex-direction: column ;
+ }
+.privacy{
+margin-right: -131px;
+}
+.callus{
+margin-right: -27px;
+}
+.social{
+margin-left: 167px;
+margin-top: -90px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+hr{
+    opacity: 0.4;
+}
+
+
+
+
+
+

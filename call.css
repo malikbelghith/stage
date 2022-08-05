@@ -1,0 +1,151 @@
+
+body {
+
+    font-family: 'Cairo', sans-serif;
+}
+.left {
+    display: flex;
+    gap: 40px;
+
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 750px;
+    justify-content: center;
+}
+
+.log {
+    background-color: #078667;
+    border: none;
+    color: white;
+    padding: 15px 34px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.log:hover {
+    background-color: #078667;
+    border: none;
+    color: white;
+    padding: 18px 37px;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.sign {
+    color: #078667;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+.sign:hover {
+    color: #078667;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: larger;
+}
+
+.call {
+    color: gray;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+.call:hover {
+    color: #078667;
+    font-weight: bold;
+    font-size: larger;
+    white-space: nowrap;
+}
+
+.hotel {
+    color: gray;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+.hotel:hover {
+    color: #078667;
+    font-weight: bold;
+    font-size: larger;
+    white-space: nowrap;
+}
+
+.main {
+    color: gray;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+.main:hover {
+    color: #078667;
+    font-weight: bold;
+    font-size: larger;
+    white-space: nowrap;
+}
+.texte{
+    text-align: right;
+    margin-right: 292px;
+}
+h1{
+    font-size: 80px;
+    font-weight: 600px;
+    line-height: 10px;
+}
+.help{
+    font-size: 24px;
+    color: gray;
+}
+.adress{
+    font-size: 24px;
+    color: grey;
+}
+.adressimg{
+    fill: #078667;
+}
+.social{
+font-size: 30px;
+font-weight: bolder;
+}
+.callus{
+    display: flex;
+    justify-content: space-between;
+
+}
+.communication{
+    margin-left: 53px;
+}
+.youtube{
+    margin-right: -42px;
+        margin-top: -36px;
+}

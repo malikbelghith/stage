@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <button class="log">إنشاء حساب</button>
+        <a class="sign" href="default.asp"> تسجيل الدخول</a>
+      </div>
+
+      <div class="right">
+        <div class="list">
+          <a class="call" href="call.html"
+            >إتصل بنا
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M436.9 364.8c-14.7-14.7-50-36.8-67.4-45.1-20.2-9.7-27.6-9.5-41.9.8-11.9 8.6-19.6 16.6-33.3 13.6-13.7-2.9-40.7-23.4-66.9-49.5-26.2-26.2-46.6-53.2-49.5-66.9-2.9-13.8 5.1-21.4 13.6-33.3 10.3-14.3 10.6-21.7.8-41.9C184 125 162 89.8 147.2 75.1c-14.7-14.7-18-11.5-26.1-8.6 0 0-12 4.8-23.9 12.7-14.7 9.8-22.9 18-28.7 30.3-5.7 12.3-12.3 35.2 21.3 95 27.1 48.3 53.7 84.9 93.2 124.3l.1.1.1.1c39.5 39.5 76 66.1 124.3 93.2 59.8 33.6 82.7 27 95 21.3 12.3-5.7 20.5-13.9 30.3-28.7 7.9-11.9 12.7-23.9 12.7-23.9 2.9-8.1 6.2-11.4-8.6-26.1z"
+              ></path>
+            </svg>
+          </a>
+          <a class="hotel" href="news.asp"
+            >الفنادق
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M458.2 208h-.4c-12 0-21.8 9.8-21.8 21.8 0 1.2-1 2.2-2.2 2.2H78.2c-1.2 0-2.2-1-2.2-2.2 0-12-9.8-21.8-21.8-21.8h-.4c-12 0-21.8 9.8-21.8 21.8v180.4c0 12 9.8 21.8 21.8 21.8h.4c12 0 21.8-9.8 21.8-21.8V404c0-2.2 1.8-4 4-4h352c2.2 0 4 1.8 4 4v6.2c0 12 9.8 21.8 21.8 21.8h.4c12 0 21.8-9.8 21.8-21.8V229.8c0-12-9.8-21.8-21.8-21.8z"
+              ></path>
+              <path
+                d="M84 214h22.5c2.2 0 4-1.8 4-4v-13c0-8.8 7.2-16 16-16H224c8.8 0 16 7.2 16 16v13c0 2.2 1.8 4 4 4h24c2.2 0 4-1.8 4-4v-13c0-8.8 7.2-16 16-16h97.5c8.8 0 16 7.2 16 16v13c0 2.2 1.8 4 4 4H428c4.4 0 8-3.6 8-8v-94c0-17.6-14.4-32-32-32H108c-17.6 0-32 14.4-32 32v94c0 4.4 3.6 8 8 8z"
+              ></path></svg
+          ></a>
+          <a class="main" href="index.html"
+            >الصفحة الرئيسية
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.5 10.995V14.5a.5.5 0 01-.5.5H2a.5.5 0 01-.5-.5v-7a.5.5 0 01.146-.354l6-6a.5.5 0 01.708 0l6 6a.5.5 0 01.146.354v7a.5.5 0 01-.5.5h-4a.5.5 0 01-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                d="M13 2.5V6l-2-2V2.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z"
+                clip-rule="evenodd"
+              ></path></svg
+          ></a>
+        </div>
+        <div class="logo">
+          <img src="/img/logo.png" alt="logo" />
+        </div>
+      </div>
+    </nav>
+    <br />
+    <br /><br />
+    <br />
+    <br />
+    <header>
+      <div class="destination">
+        <p class="dest">
+          الوجهة
+          <svg
+            class="valise"
+            stroke="currentColor"
+            fill="currentColor"
+            stroke-width="0"
+            version="1.1"
+            viewBox="0 0 16 16"
+            height="1em"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 0c-2.761 0-5 2.239-5 5 0 5 5 11 5 11s5-6 5-11c0-2.761-2.239-5-5-5zM8 8c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"
+            ></path>
+          </svg>
+        </p>
+        <p class="choose">إختر وجهتك</p>
+      </div>
+      <div class="both">
+        <div class="departure">
+          <p class="date">
+            تاريخ المغادرة
+            <svg
+              class="valise"
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M112 880c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V460H112v420zm768-696H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v176h800V216c0-17.7-14.3-32-32-32z"
+              ></path>
+            </svg>
+          </p>
+          <p class="date1">أغسطس 2021,03</p>
+        </div>
+        <div class="fleche">
+          <svg
+            class="valise"
+            stroke="currentColor"
+            fill="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            height="1em"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21 11L6.414 11 11.707 5.707 10.293 4.293 2.586 12 10.293 19.707 11.707 18.293 6.414 13 21 13z"
+            ></path>
+          </svg>
+        </div>
+
+        <div class="arrivals">
+          <p class="date">
+            تاريخ الوصول
+
+            <svg
+              class="valise"
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M112 880c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V460H112v420zm768-696H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v176h800V216c0-17.7-14.3-32-32-32z"
+              ></path>
+            </svg>
+          </p>
+          <p class="date1">يوليو 30, 2021</p>
+        </div>
+      </div>
+      <div class="promosearch">
+        <div class="promo">
+          <p class="date">
+            البروموكود
+            <svg
+              class="valise"
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g>
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path
+                  d="M10 21H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7a2 2 0 1 0 4 0h7a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-7a2 2 0 1 0-4 0zm-1.465-2A3.998 3.998 0 0 1 12 17c1.48 0 2.773.804 3.465 2H20V5h-4.535A3.998 3.998 0 0 1 12 7a3.998 3.998 0 0 1-3.465-2H4v14h4.535zM6 8h2v8H6V8zm10 0h2v8h-2V8z"
+                ></path>
+              </g>
+            </svg>
+          </p>
+          <input
+            class="codepromo"
+            type="text"
+            name="البروموكود..."
+            id=""
+            placeholder="البروموكود..."
+          />
+        </div>
+        <div class="search">
+          <button class="chercher">
+            بحث
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="voyage">
+      <img class="imgvoy" src="/img/voyage.png" alt="voyage" />
+      <p class="texte">
+        <strong>إختر</strong>
+        غرفتك <br />
+        المفضلة
+      </p>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="besthotel">
+      <p class="bh">الفنادق المميزة</p>
+      <div class="flechet">
+        <svg
+          stroke="currentColor"
+          fill="none"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          height="1em"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line x1="19" y1="12" x2="5" y2="12"></line>
+          <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+        <svg
+          class="droite"
+          stroke="currentColor"
+          fill="none"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          height="1em"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="allhotels">
+      <div class="mariotthotel">
+        <img class="mariotimg" src="/img/mariott.jpg" alt="mariott hotel" />
+        <div class="underimg">
+          <p class="hotelname">فنادق ماريوت مكة جبل عمر</p>
+          <img class="stars" src="/img/stars.jpg" alt="stars" />
+          <p class="makka">وقف الملك عبد العزيز,أبراج البيت مكة</p>
+        </div>
+      </div>
+      <div class="mariotthotel">
+        <img class="mariotimg" src="/img/sheraton.webp" alt="sheraton hotel" />
+        <div class="underimg">
+          <p class="hotelname1">فندق الشيراتون مكة جبل الكعبة</p>
+          <img class="stars" src="/img/stars.jpg" alt="stars" />
+          <p class="makka">وقف الملك عبد العزيز,أبراج البيت مكة</p>
+        </div>
+      </div>
+      <div class="mariotthotel">
+        <img class="mariotimg" src="/img/marwa.webp" alt="marwa hotel" />
+        <div class="underimg">
+          <p class="hotelname">
+            فندق المروة ريحان من روتانا</p>
+          <img class="stars" src="/img/stars.jpg" alt="stars" />
+          <p class="makka">وقف الملك عبد العزيز,أبراج البيت مكة</p>
+        </div>
+      </div>
+      <div class="mariotthotel">
+        <img class="mariotimg" src="/img/swiss.jpg" alt="swiss hotel" />
+        <div class="underimg">
+          <p class="hotelname1">
+            فندق سويس أوتيل المقام مكة </p>
+            <img class="stars" src="/img/stars.jpg" alt="stars" />
+          </p>
+
+          <p class="makka">وقف الملك عبد العزيز,أبراج البيت مكة</p>
+        </div>
+      </div>
+    </div>
+    <div class="point" >
+<span class="dot" ></span>
+<span class="dot" ></span>
+<span class="dot" ></span>
+<span class="dot" ></span>
+<span class="dot1" ></span>
+    </div>
+   <br>
+   <div class="besth">
+<img src="/img/photo.png" alt="photo">
+<div class="description">
+    <div class="ktiba">
+<h2>سلسلة الفنادق الرائدة في المملكة العربية السعودية</h2>
+<p class="easy">سهولة في الحجز,وجهات أكثر أسعار أقل</p>
+</div>
+<div class="numbers">
+    <p>2500+</p>
+    <p>6</p>
+</div>
+<div class="booking">
+    <p>فندق</p>
+    <p>وجهات</p>
+</div>
+<br>
+<br>
+
+<div class="alltogether">
+<div class="makkaandriyad">
+
+<div class="makkaandtaef">
+
+
+<div class="maqqa">
+    <span class="dot1" ></span>
+    <p class="m">مكة المكرمة </p>
+</div>
+
+<div class="maqqa">
+    <span class="dot1" ></span>
+    <p class="m">الطائف</p>
+</div>
+
+</div>
+
+<div class="makkaandtaef">
+
+
+<div class="maqqa">
+    <span class="dot1" ></span>
+    <p class="m">جدة</p>
+</div>
+
+<div class="maqqa">
+    <span class="dot1" ></span>
+    <p class="m">الرياض</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="makkaandtaef">
+
+
+<div class="maqqa">
+    <span class="dot1" ></span>
+    <p class="m">المدينة المنورة </p>
+</div>
+
+<div class="maqqa">
+    <span class="dot1" ></span>
+    <p class="m">الدمام</p>
+</div>
+
+</div>
+</div>
+    </div>
+   </div>
+
+<br><br><br><br><br>
+
+<div class="email">
+<img class="nar" src="/img/nar.png" alt="nar">
+<div class="fire" >
+<p class="subscribe" >إشترك في قائمتنا البريدية</p>
+<p class="bestseller" >أفضل العروض فقط تصل إلى بريدك الإلكتروني</p>
+</div>
+<div class="mail" >
+
+    <input class="book" type="email" name="" id="" placeholder="bookingsaudi@email.com">
+    <button class="sub" type="submit">إشترك</button>
+</div>
+<img class="rouge" src="/img/blanc.png" alt="blanc">
+<p class="yourmail" >بريدك الإلكتروني</p>
+</div>
+<br>
+<hr>
+<br>
+<footer>
+    <div class="allabout">
+<div class="about">
+<p>حول</p>
+<p>ضمان الخدمة</p>
+<p>المدونة </p>
+</div>
+
+<div class="about">
+
+    <p>الشروط و الأحكام</p>
+    <p class="privacy" >سياسة الخصوصية </p>
+    <p class="callus" >اتصل بنا </p>
+</div>
+
+    </div>
+ 
+    <div class="social">
+ <img src="/img/Capture d’écran 2022-08-04 140830.png" alt="social">
+    </div>
+<br>
+<hr>
+<p class="last" >booking saudi &#169 2021</p>
+
+
+
+</footer>
+
+  </body>
+</html>
